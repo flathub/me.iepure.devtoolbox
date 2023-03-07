@@ -38,8 +38,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/aleiepure/devtoolbox",
-                    "tag": "v1.0",
-                    "commit": "7b5c02d283589ce80cfcf6b35a7002d8c63c217a"
+                    "tag": "v1.0.1",
+                    "commit": "a3312b48a313201a650c43a5a2dc623295e7e8d6"
                 }
             ]
         }
