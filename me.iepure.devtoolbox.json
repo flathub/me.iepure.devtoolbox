@@ -1,7 +1,7 @@
 {
     "app-id" : "me.iepure.devtoolbox",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "43",
+    "runtime-version" : "44",
     "sdk" : "org.gnome.Sdk",
     "command" : "devtoolbox",
     "finish-args" : [
@@ -25,6 +25,17 @@
     "modules" : [
         "pypi-dependencies.json",
         {
+            "name": "blueprint-compiler",
+            "buildsystem": "meson",
+            "sources": [
+                {
+                "type": "git",
+                "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler",
+                "tag": "v0.8.1"
+                }
+	        ]
+	    },
+        {
             "name" : "devtoolbox",
             "buildsystem" : "meson",
             "config-opts" : [
@@ -38,8 +49,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/aleiepure/devtoolbox",
-                    "tag": "v1.0.2",
-                    "commit": "72739c7597922f8d1cb035fd875f0f25aff556e9"
+                    "tag": "v1.1",
+                    "commit": "a345dd88d1c67f682853c03984415061515a9635"
                 }
             ]
         }
