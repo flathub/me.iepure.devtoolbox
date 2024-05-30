@@ -1,7 +1,7 @@
 {
     "app-id" : "me.iepure.devtoolbox",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "44",
+    "runtime-version" : "46",
     "sdk" : "org.gnome.Sdk",
     "command" : "devtoolbox",
     "finish-args" : [
@@ -54,6 +54,10 @@
                     "url" : "https://github.com/aleiepure/devtoolbox",
                     "tag": "v1.1.1",
                     "commit": "26c22455e6fb31658978d438acc2ea1b9aed740d"
+                },
+                {
+                    "type" : "patch",
+                    "path": "fix_appdata.patch"
                 }
             ]
         }
