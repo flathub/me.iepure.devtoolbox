@@ -1,8 +1,11 @@
 diff --git a/data/me.iepure.devtoolbox.desktop.in.in b/data/me.iepure.devtoolbox.desktop.in.in
 index 74fad3b..2eae022 100644
---- a/data/me.iepure.devtoolbox.desktop.in.in
-+++ b/data/me.iepure.devtoolbox.desktop.in.in
-@@ -9,5 +9,5 @@ Exec=devtoolbox
+@@ -5,9 +5,10 @@
+ [Desktop Entry]
+ # TRANSLATORS: do not translate
+ Name=@app-name@
++Comment=Development tools at your fingertips
+ Exec=devtoolbox
  Icon=me.iepure.devtoolbox
  Terminal=false
  Type=Application
