@@ -54,8 +54,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/aleiepure/devtoolbox",
-                    "tag": "v1.2.2",
-                    "commit": "38c0478a770bc5b6aad98ed91ec5224926bb5545"
+                    "tag": "v1.2.3",
+                    "commit": "7efd782d8ab49ffdeb35ca3c289a5039d8376e90"
                 }
             ]
         }
