@@ -1,7 +1,7 @@
 {
     "id" : "me.iepure.devtoolbox",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "47",
+    "runtime-version" : "48",
     "sdk" : "org.gnome.Sdk",
     "command" : "devtoolbox",
     "separate-locales": false,
@@ -54,8 +54,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/aleiepure/devtoolbox",
-                    "tag": "v1.2.2",
-                    "commit": "38c0478a770bc5b6aad98ed91ec5224926bb5545"
+                    "tag": "v1.2.4",
+                    "commit": "9e6cc00ca34f72627177c04659e1383dc22d2c66"
                 }
             ]
         }
