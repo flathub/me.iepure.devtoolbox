@@ -1,0 +1,35 @@
+From a927e47a851ee504f193c643af7eee0b96864051 Mon Sep 17 00:00:00 2001
+From: Sabri Ünal <yakushabb@gmail.com>
+Date: Sun, 15 Mar 2026 22:56:48 +0300
+Subject: [PATCH] Fix appdata paper cuts
+
+---
+ data/me.iepure.devtoolbox.metainfo.xml.in | 7 ++++---
+ 1 file changed, 4 insertions(+), 3 deletions(-)
+
+diff --git a/data/me.iepure.devtoolbox.metainfo.xml.in b/data/me.iepure.devtoolbox.metainfo.xml.in
+index 89294d6..46c8db8 100644
+--- a/data/me.iepure.devtoolbox.metainfo.xml.in
++++ b/data/me.iepure.devtoolbox.metainfo.xml.in
+@@ -164,8 +164,9 @@ SPDX-License-Identifier: CC0-1.0
+           <li>Timestamp: More timezones to choose from</li>
+           <li>Timestamp: Time and date are now displayed in more formats</li>
+           <li>Updated dependencies and platform version to GNOME 47</li>
+-        </ul> Thank you for
+-        the new and updated translations via weblate. </description>
++        </ul>
++        <p>Thank you for the new and updated translations via weblate.</p>
++      </description>
+     </release>
+     <release version="1.1.1" date="2023-06-18">
+       <description translate="no">
+@@ -243,4 +244,4 @@ SPDX-License-Identifier: CC0-1.0
+     <display_length compare="ge">700</display_length>
+   </requires>
+ 
+-</component>
+\ No newline at end of file
++</component>
+--
+libgit2 1.7.2
+

@@ -45,6 +45,10 @@
                     "url" : "https://github.com/aleiepure/devtoolbox",
                     "tag": "v1.3.0",
                     "commit": "db5417fe3cee8e7f38c2475f7ca9aceeab0a74b3"
+                },
+                {
+                    "type" : "patch",
+                    "path": "fix-appdata.patch"
                 }
             ]
         }
